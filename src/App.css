@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Antique&family=Zen+Antique+Soft&family=Zen+Old+Mincho&display=swap");
+/* import back from './back.jpg'; */
+body {
+  background-color: #ffffff !important;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.h1 {
+  border-bottom: 1px solid black;
+}
+.color {
+  color: #f95700;
+}
+.post_header {
+  display: flex;
+  align-items: center;
+}
+.post {
+  width: 600px;
+  border: 0.5px solid white;
+  box-shadow: 2px 3px 7px black;
+  margin: 20px 150px;
+}
+.cap {
+  margin-left: 3px;
+}
+.post_body img {
+  width: 600px;
+}
+.post_header {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+.icons {
+  margin: 5px 11px;
+  color: #f95700;
+}
+.icon {
+  margin: 0px 5px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.post_name {
+  margin-left: 5px;
+  font-family: "Zen Antique", serif;
+  font-family: "Zen Antique Soft", serif;
+  font-family: "Zen Old Mincho", serif;
+}
+
+.caption {
+  display: flex;
+  /* border-top:1px solid black; */
+  padding: 1px 20px;
+}
+strong {
+  padding-right: 6px;
+  font-family: "Zen Antique", serif;
+  font-family: "Zen Antique Soft", serif;
+  font-family: "Zen Old Mincho", serif;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  /* align-items:center; */
+}
+/* code pen Css  */
+h1 {
+  margin-bottom: 0;
+}
+
+header {
+  height: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+header > div {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.headerSpace {
+  width: 5vw;
+  margin-left: 30px;
+  max-width: 50px;
+}
+p {
+  font-family: "Zen Antique", serif;
+  font-family: "Zen Antique Soft", serif;
+  font-family: "Zen Old Mincho", serif;
+}
+#headerMain {
+  width: 90vw;
+  min-width: 45px;
+  border-bottom: 1px solid black;
+  font-family: "Zen Antique", serif;
+  font-family: "Zen Antique Soft", serif;
+  font-family: "Zen Old Mincho", serif;
+  color: #f95700;
+}
+.btn1 {
+  position: absolute !important;
+  top: 7px;
+  right: 120px;
+  color: #f95700 !important;
+  border: 1px solid black !important;
+}
+.btn2 {
+  position: absolute !important;
+  top: 7px;
+  right: 105px;
+  color: #f95700 !important;
+  border: 1px solid black !important;
+}
+.btn3 {
+  position: absolute !important;
+  top: 7px;
+  right: 200px;
+  color: #f95700 !important;
+  border: 1px solid black !important;
+}
+.btn4 {
+  top: 15px;
+}
+.Input {
+  top: 10px;
+}
+.btn5 {
+  position: absolute;
+  top: 13px;
+  left: 150px;
+  color: #f95700 !important;
+  border: 1px solid black !important;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  height: 500px;
+  margin-top: 20px;
+}
+.main_h {
+  color: #f95700;
+
+  text-align: center;
+  font-family: "Zen Antique", serif;
+  font-family: "Zen Antique Soft", serif;
+  font-family: "Zen Old Mincho", serif;
+  text-shadow: 1px 1px 4px black;
+  /* border-bottom: 1px solid #EF5455; */
+}
+
+.Front {
+  display: flex;
+}
+.message {
+  border: 1px solid black;
+  max-height: 700px;
+  width: 40vw;
+  position: fixed;
+  top: 105px;
+  right: 95px;
+}
+.message_head {
+  display: flex;
+  align-items: center;
+  /* color: #000000; */
+  /* border-bottom: 1px solid gray; */
+  background-color: rgb(190, 190, 190);
+  padding: 15px;
+}
+.message_body {
+  height: 50vh;
+  overflow-y: scroll;
+  background-image: url(./components/back1.jpg);
+
+  /* border-bottom: 1px solid gray; */
+}
+.message_body {
+  height: 50vh;
+  overflow-y: scroll;
+  background-image: url(./components/back1.jpg);
+
+  /* border-bottom: 1px solid gray; */
+}
+
+.message_footer {
+  height: 8vh;
+  /* border-top: 1px solid black; */
+  background-color: rgb(201, 196, 196);
+}
+.send_message {
+  margin-top: 4.5px;
+  margin-left: 8px;
+  height: 6vh;
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 3px;
+  color: black;
+  border: 0.5px solid black;
+  background-color: rgb(255, 255, 255);
+  width: 34vw;
+}
+.send_message:focus {
+  border: none;
+}
+.send_btn {
+  margin-left: 10px;
+  width: 4vw;
+  height: 5.5vh;
+  cursor: pointer;
+  background-color: #99f443;
+  border: none;
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+.send_btn:hover {
+  width: 3.7vw;
+  height: 5.3vh;
+  margin-left: 12px;
+  background-color: #99f443;
+}
+.hello {
+  margin-left: 8px;
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Zen Antique", serif;
+  font-family: "Zen Antique Soft", serif;
+  font-family: "Zen Old Mincho", serif;
+}
+.msg.own {
+  max-width: 200px;
+  margin-top: 10px;
+  width: fit-content;
+  padding: 10px 10px;
+  border-radius: 30px;
+  background-color: #000000;
+  color: white;
+  font-weight: 400;
+  height: fit-content;
+  margin-left: 30vw;
+  font-size: 15px;
+  /* border: 1px solid black; */
+}
+.msg {
+  max-width: 200px;
+  width: fit-content;
+  padding: 10px 10px;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  height: fit-content;
+  margin-left: 10px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  /* border: 1px solid black; */
+}
+.comments {
+  margin: 10px 22px;
+  display:none
+}
+.comment{
+  margin: 10px 22px;
+  display : block;
+}
+
+.addComm{
+  position: relative;
+  left: 0px;
+  top: 15px;
+  
+}
+.addComm :hover{
+  cursor: pointer;
+}
